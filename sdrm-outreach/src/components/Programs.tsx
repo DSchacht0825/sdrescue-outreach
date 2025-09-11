@@ -41,7 +41,7 @@ const Programs = () => {
   ];
 
   return (
-    <section id="services" className="py-16 bg-white">
+    <section id="services" className="py-16 bg-transparent">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-sdrm-navy mb-4">

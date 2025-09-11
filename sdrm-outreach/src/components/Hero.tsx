@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative bg-gradient-to-r from-sdrm-blue to-sdrm-navy py-20 md:py-32">
+    <section id="home" className="relative bg-transparent py-20 md:py-32">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
