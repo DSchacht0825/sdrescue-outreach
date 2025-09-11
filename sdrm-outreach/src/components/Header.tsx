@@ -17,9 +17,6 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex space-x-6">
-            <a href="#home" className="text-sdrm-navy hover:text-sdrm-blue transition-colors">Home</a>
-            <a href="#services" className="text-sdrm-navy hover:text-sdrm-blue transition-colors">Services</a>
-            <a href="#contact" className="text-sdrm-navy hover:text-sdrm-blue transition-colors">Contact</a>
             <a 
               href="https://savings-tracker-frontend.vercel.app" 
               target="_blank" 
@@ -65,9 +62,6 @@ const Header = () => {
 
         {isMenuOpen && (
           <nav className="md:hidden py-4 border-t">
-            <a href="#home" className="block py-2 text-sdrm-navy hover:text-sdrm-blue">Home</a>
-            <a href="#services" className="block py-2 text-sdrm-navy hover:text-sdrm-blue">Services</a>
-            <a href="#contact" className="block py-2 text-sdrm-navy hover:text-sdrm-blue">Contact</a>
             <a 
               href="https://savings-tracker-frontend.vercel.app" 
               target="_blank" 
