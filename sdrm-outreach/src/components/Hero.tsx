@@ -15,14 +15,6 @@ const Hero = () => {
             Our outreach team connects with individuals experiencing homelessness where they are, 
             providing immediate assistance, resources, and pathways to recovery.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-sdrm-gold hover:bg-amber-600 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors">
-              Request Outreach
-            </button>
-            <button className="bg-white hover:bg-gray-100 text-sdrm-navy px-8 py-3 rounded-lg text-lg font-semibold transition-colors">
-              Join Our Team
-            </button>
-          </div>
         </div>
       </div>
     </section>

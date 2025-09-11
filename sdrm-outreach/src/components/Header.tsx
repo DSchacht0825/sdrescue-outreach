@@ -41,9 +41,6 @@ const Header = () => {
             >
               Housing Database
             </a>
-            <button className="bg-sdrm-gold text-white px-4 py-2 rounded hover:bg-amber-600 transition-colors">
-              Get Involved
-            </button>
           </nav>
 
           <button 
@@ -86,9 +83,6 @@ const Header = () => {
             >
               Housing Database
             </a>
-            <button className="mt-4 bg-sdrm-gold text-white px-4 py-2 rounded hover:bg-amber-600 transition-colors w-full">
-              Get Involved
-            </button>
           </nav>
         )}
       </div>
