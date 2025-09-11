@@ -7,16 +7,8 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <div className="flex flex-col items-center">
-            <img 
-              src="/SDRMLogo2016-3 2.png" 
-              alt="San Diego Rescue Mission" 
-              className="h-12 md:h-16"
-            />
-            <span className="text-sm text-sdrm-gray mt-1">Changing Lives Since 1955</span>
-          </div>
-          
-          <nav className="hidden md:flex space-x-6">
+          {/* Left Navigation Links */}
+          <nav className="hidden md:flex space-x-6 flex-1 justify-start">
             <a 
               href="https://savings-tracker-frontend.vercel.app" 
               target="_blank" 
@@ -33,6 +25,20 @@ const Header = () => {
             >
               Stabilization
             </a>
+          </nav>
+          
+          {/* Centered Logo */}
+          <div className="flex flex-col items-center flex-shrink-0">
+            <img 
+              src="/SDRMLogo2016-3 2.png" 
+              alt="San Diego Rescue Mission" 
+              className="h-12 md:h-16"
+            />
+            <span className="text-sm text-sdrm-gray mt-1">Changing Lives Since 1955</span>
+          </div>
+          
+          {/* Right Navigation Links */}
+          <nav className="hidden md:flex space-x-6 flex-1 justify-end">
             <a 
               href="https://housing-contacts-database-production.up.railway.app" 
               target="_blank" 
@@ -40,6 +46,14 @@ const Header = () => {
               className="text-sdrm-navy hover:text-sdrm-blue transition-colors"
             >
               Housing Database
+            </a>
+            <a 
+              href="https://vista-partners.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-sdrm-navy hover:text-sdrm-blue transition-colors"
+            >
+              Partnerships
             </a>
           </nav>
 
@@ -82,6 +96,14 @@ const Header = () => {
               className="block py-2 text-sdrm-navy hover:text-sdrm-blue"
             >
               Housing Database
+            </a>
+            <a 
+              href="https://vista-partners.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block py-2 text-sdrm-navy hover:text-sdrm-blue"
+            >
+              Partnerships
             </a>
           </nav>
         )}
