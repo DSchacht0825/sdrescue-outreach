@@ -7,13 +7,13 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center">
+          <div className="flex flex-col items-center">
             <img 
               src="/SDRMLogo2016-3 2.png" 
               alt="San Diego Rescue Mission" 
               className="h-12 md:h-16"
             />
-            <span className="ml-3 text-xl font-semibold text-sdrm-navy">Outreach</span>
+            <span className="text-sm text-sdrm-gray mt-1">Changing Lives Since 1955</span>
           </div>
           
           <nav className="hidden md:flex space-x-6">
