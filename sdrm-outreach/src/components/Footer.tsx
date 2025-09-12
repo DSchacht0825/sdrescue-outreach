@@ -13,7 +13,7 @@ const Footer = () => {
         
         <div className="text-center text-gray-300">
           <p className="mb-2">Part of San Diego Rescue Mission</p>
-          <p>&copy; 2024 San Diego Rescue Mission. All rights reserved.</p>
+          <p>&copy; 2025 San Diego Rescue Mission. All rights reserved.</p>
         </div>
       </div>
     </footer>
