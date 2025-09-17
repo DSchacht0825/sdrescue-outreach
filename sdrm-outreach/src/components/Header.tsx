@@ -9,21 +9,29 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Left Navigation Links */}
           <nav className="hidden md:flex space-x-6 flex-1 justify-start">
-            <a 
-              href="https://savings-tracker-frontend.vercel.app" 
-              target="_blank" 
+            <a
+              href="https://savings-tracker-frontend.vercel.app"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-sdrm-navy hover:text-sdrm-blue transition-colors"
             >
               Budget Tool
             </a>
-            <a 
-              href="https://amazing-brigadeiros-75b20a.netlify.app/" 
-              target="_blank" 
+            <a
+              href="https://amazing-brigadeiros-75b20a.netlify.app/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-sdrm-navy hover:text-sdrm-blue transition-colors"
             >
               Stabilization
+            </a>
+            <a
+              href="https://housing-ready-production.up.railway.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sdrm-navy hover:text-sdrm-blue transition-colors"
+            >
+              Housing Ready
             </a>
           </nav>
           
@@ -73,33 +81,41 @@ const Header = () => {
 
         {isMenuOpen && (
           <nav className="md:hidden py-4 border-t">
-            <a 
-              href="https://savings-tracker-frontend.vercel.app" 
-              target="_blank" 
+            <a
+              href="https://savings-tracker-frontend.vercel.app"
+              target="_blank"
               rel="noopener noreferrer"
               className="block py-2 text-sdrm-navy hover:text-sdrm-blue"
             >
               Budget Tool
             </a>
-            <a 
-              href="https://amazing-brigadeiros-75b20a.netlify.app/" 
-              target="_blank" 
+            <a
+              href="https://amazing-brigadeiros-75b20a.netlify.app/"
+              target="_blank"
               rel="noopener noreferrer"
               className="block py-2 text-sdrm-navy hover:text-sdrm-blue"
             >
               Stabilization
             </a>
-            <a 
-              href="https://housing-contacts-database-production.up.railway.app" 
-              target="_blank" 
+            <a
+              href="https://housing-ready-production.up.railway.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block py-2 text-sdrm-navy hover:text-sdrm-blue"
+            >
+              Housing Ready
+            </a>
+            <a
+              href="https://housing-contacts-database-production.up.railway.app"
+              target="_blank"
               rel="noopener noreferrer"
               className="block py-2 text-sdrm-navy hover:text-sdrm-blue"
             >
               Housing Database
             </a>
-            <a 
-              href="https://vista-partners.vercel.app" 
-              target="_blank" 
+            <a
+              href="https://vista-partners.vercel.app"
+              target="_blank"
               rel="noopener noreferrer"
               className="block py-2 text-sdrm-navy hover:text-sdrm-blue"
             >
